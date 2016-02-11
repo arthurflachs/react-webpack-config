@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-import styles from './Header.css';
+import styles from './Header.css'
 
-export default function Header(props) {
+export default function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.title}>
@@ -11,5 +11,5 @@ export default function Header(props) {
       <div className={styles.actions}>
       </div>
     </div>
-  );
+  )
 }

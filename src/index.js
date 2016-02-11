@@ -1,12 +1,12 @@
-import ResetCSS from 'normalize.css';
+import React from 'react'
+import { render } from 'react-dom'
 
-import React from 'react';
-import { render } from 'react-dom';
+import App from './containers/App'
 
-import App from './containers/App';
+require('normalize.css')
 
 render(
   <App />,
   document.getElementById('root')
-);
+)
 

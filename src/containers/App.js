@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import Header from 'components/Header';
+import Header from 'components/Header'
 
 export default class App extends Component {
   render() {
@@ -8,6 +8,6 @@ export default class App extends Component {
       <div>
         <Header />
       </div>
-    );
+    )
   }
 }
