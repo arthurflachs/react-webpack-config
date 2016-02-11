@@ -1,13 +1,15 @@
-.header {
-    background-color: black;
-    color: white;
+.Header {
+  background-color: black;
+  color: white;
 }
-.title {
-    font-family: serif;
-    font-weight: 600;
-    font-size: 2.3em;
-    padding: .5em;
+
+.Title {
+  font-family: serif;
+  font-weight: 600;
+  font-size: 2.3em;
+  padding: .5em;
 }
-.actions {
-    float: right;
+
+.Actions {
+  float: right;
 }
