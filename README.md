@@ -4,6 +4,13 @@ Boilerplate configuration for react + webpack.
 
 ![](https://raw.githubusercontent.com/arthurflachs/react-webpack-config/master/assets/Application.png)
 
+## NPM Scripts
+The following npm scripts are available :
+```
+npm start: run webpack dev server on port 3000
+npm run lint: run linting tools (check JS and CSS style)
+```
+
 ## Webpack configuration
 Packages installed
 * Webpack
