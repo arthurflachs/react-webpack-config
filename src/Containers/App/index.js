@@ -8,7 +8,14 @@ export default class App extends Component {
     return (
       <div className={styles.App}>
         <Header />
+
+        {this.props.children}
+
       </div>
     )
   }
+}
+
+App.propTypes = {
+  children: React.PropTypes.element.isRequired
 }
