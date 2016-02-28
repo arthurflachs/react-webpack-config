@@ -1,4 +1,4 @@
-var path = require('path');
+var path = require('path')
 
 module.exports = {
   "entry": path.resolve('src', 'index.js'),
@@ -12,11 +12,6 @@ module.exports = {
       { "test": /\.js$/, "loader": 'babel', "include": path.resolve('src') },
       { "test": /\.css$/, "loader": 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]' }
     ]
-  },
-  resolve: {
-    alias: {
-      components: path.resolve('src', 'components')
-    }
   }
-};
+}
 
