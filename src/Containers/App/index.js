@@ -9,7 +9,9 @@ export default class App extends Component {
       <div className={styles.App}>
         <Header />
 
-        {this.props.children}
+        <div className={styles.Content}>
+          {this.props.children}
+        </div>
 
       </div>
     )
