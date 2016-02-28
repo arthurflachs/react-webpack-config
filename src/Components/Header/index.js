@@ -1,12 +1,13 @@
 import React from 'react'
 
 import styles from './styles.css'
+import HomeIcon from '../HomeIcon'
 
 export default function Header() {
   return (
     <div className={styles.Header}>
       <div className={styles.Title}>
-        <span>My website</span>
+        <HomeIcon />
       </div>
       <div className={styles.Actions}>
       </div>
