@@ -9,3 +9,7 @@ export default function HomeIcon({ fill }) {
     </svg>
   )
 }
+
+HomeIcon.propTypes = {
+  fill: React.PropTypes.string
+}
